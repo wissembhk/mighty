@@ -1,0 +1,71 @@
+
+.dflex{
+    display: flex;
+}
+.container{
+    border:black solid 1px;
+    width: 94%;
+    margin-left: 3%;
+}
+.img-person{
+    width: 25%;
+    height: 75%;
+}
+.container2{
+    flex-direction: column;
+}
+
+.bloc1{
+    width: 60%;
+}
+.bloc2{
+    width:40%;
+}
+
+.screenshot{
+    width:70%;
+    height: 70%;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+.title{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 50%;
+
+}
+.para{
+    width:50%
+}
+
+.btn1{
+    background-color: #3AC067;
+    width: 30%;
+    border: none;
+    border-radius: 6px;
+    height: 45px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+.arrow{
+    color: white;
+}
+
+.btn2{
+    background-color: transparent;
+    border: none;
+    border-bottom: #3AC067 solid;
+    width: 40%;
+    margin-bottom: 3%;
+    padding-left: 0%;
+}
+.arrow2{
+    color: #3AC067;
+}
+.title1{
+    font-size: 50px;
+}
